@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#EA5A0B</color>
+    <color name="green_dark">#037861</color>
+    <color name="green_light">#B6DCD0</color>
+    <color name="text_dialog_heroes">#28225C</color>
+    <!--<color name="text_cards">#EA5A0B</color>-->
+  <color name="text_cards">#93861B</color>
+
+    <color name="transparent_dark">#44000000</color>
+
+</resources>

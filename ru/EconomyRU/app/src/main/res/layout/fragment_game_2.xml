@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|bottom">
+
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_1"
+            style="@style/StyleButtonCard.small.firstRow"
+            android:layout_alignParentBottom="true" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_2"
+            style="@style/StyleButtonCard.small"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_1" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_3"
+            style="@style/StyleButtonCard.small"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_2" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_4"
+            style="@style/StyleButtonCard.small"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_3" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_6"
+            style="@style/StyleButtonCard.small.firstRow"
+            android:layout_above="@+id/btn1_1" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_7"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_6" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_8"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_7" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_9"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_8" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_11"
+            style="@style/StyleButtonCard.small.firstRow"
+            android:layout_above="@+id/btn1_6" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_12"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_11" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_13"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_12" />
+
+        <kz.nis.economyru.play.Card
+            android:id="@+id/btn1_14"
+            style="@style/StyleButtonCard.small"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_13" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+    <ImageView
+        android:id="@+id/buttonCarte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+
+    <ImageView
+        android:id="@+id/buttonCarte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+
+    <FrameLayout
+        android:layout_width="@dimen/width_panel_pause_speak"
+        android:layout_height="@dimen/height_panel_pause_speak_half"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/buttonPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="@dimen/padding_small_extra"
+            android:layout_marginBottom="@dimen/padding_small_extra"
+            android:src="@drawable/icon_pause" />
+    </FrameLayout>
+
+</RelativeLayout>

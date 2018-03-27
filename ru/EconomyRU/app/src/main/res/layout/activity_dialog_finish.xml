@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/containerFragmentTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent_dark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:rotation="180">
+
+        <ImageView
+            android:id="@+id/imageTitleTop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:onClick="onClickContinue"
+            android:src="@mipmap/eng_game_over" />
+
+        <ImageView
+            android:id="@+id/imageMainMenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:src="@mipmap/eng_button_mainmenu" />
+
+        <ImageView
+            android:id="@+id/imageRestart2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:src="@mipmap/eng_button_restart" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_dino_2" />
+
+    <LinearLayout
+        android:id="@+id/containerFragmentBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent_dark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageTitleBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:onClick="onClickContinue"
+            android:src="@mipmap/eng_win" />
+
+        <ImageView
+            android:id="@+id/imageMainMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:src="@mipmap/eng_button_mainmenu" />
+
+        <ImageView
+            android:id="@+id/imageRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_weight="1"
+            android:src="@mipmap/eng_button_restart" />
+
+    </LinearLayout>
+</LinearLayout>

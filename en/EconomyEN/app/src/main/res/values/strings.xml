@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Check yourself</string>
+
+
+    <!-- ACTIVITY LIST-->
+    <string name="title">Title:</string>
+    <string name="author">Author:</string>
+    <string name="cover">Cover:</string>
+    <string name="back">Back</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_list">Edit problem set</string>
+    <!-- ACTIVITY CHECK-->
+    <string name="put_thumb_on_the_screen">Please put your right thumb \n on the screen</string>
+    <string name="only_teacher_parents">Only techer/parents can \n have access</string>
+    <string name="identification_verified">Identification Verified</string>
+    <string name="not_enough">Not Enough</string>
+    <string name="wait">Wait please . . .</string>
+    <string name="toast_exit">Press again to exit</string>
+
+    <!--<string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string> &lt;!&ndash; "Press once again to exit!" &ndash;&gt;-->
+
+</resources>

@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bkg"
+    android:padding="@dimen/padding_normal"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@mipmap/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:id="@+id/imageEdit"
+        android:src="@drawable/icon_btn_edit"  />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_high"
+            android:id="@+id/imageCoverTitle"
+            android:src="@mipmap/eng_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal"
+            android:id="@+id/imageOnePlayer"
+            android:src="@mipmap/eng_button_1player" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/imageDualPlayer"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal"
+            android:src="@mipmap/eng_button_2player" />
+
+    </LinearLayout>
+
+</FrameLayout>

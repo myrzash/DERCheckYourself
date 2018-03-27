@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Өзіңді сына</string>
+
+
+    <!-- ACTIVITY LIST-->
+    <string name="title">Атауы:</string>
+    <string name="author">Автор:</string>
+    <string name="cover">Сыртқы бет:</string>
+    <string name="back">Артқа</string>
+ <string name="start_game">Ойынды бастау</string>
+    <!-- ACTIVITY CHECK-->
+    <string name="put_thumb_on_the_screen">Оң жақ басбармағыңызды \n экранға қойыңыз</string>
+    <string name="only_teacher_parents">Тек мұғалім/ата-ана\n қолдана алады</string>
+    <string name="identification_verified">Сәйкестік тексерілді</string>
+    <string name="not_enough">Ресурстар жетіспейді</string>
+    <string name="wait">Өтінеміз, күте тұрыңыз . . .</string>
+    <string name="toast_exit">Шығу үшін тағы бір рет басыңыз</string>
+
+    <!--<string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string> &lt;!&ndash; "Press once again to exit!" &ndash;&gt;-->
+
+</resources>

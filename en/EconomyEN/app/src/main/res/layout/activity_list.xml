@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bkg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutShape"
+        android:padding="@dimen/padding_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/StyleButtonBack"
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/textTitleList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_list" />
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:onClick="onClickAdd"
+            android:background="@android:drawable/ic_input_add" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_small"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_small_extra"
+                android:text="@string/title" />
+
+            <EditText
+                android:id="@+id/editTextPartName"
+                style="@style/StyleEditTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         />
+
+            <TextView
+                android:id="@+id/textAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/author" />
+
+            <EditText
+                android:id="@+id/editTextAuthor"
+                style="@style/StyleEditTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+
+            <TextView
+                android:id="@+id/textCover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cover"
+                android:layout_margin="@dimen/padding_small_extra" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/imageViewCover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/eng_modifycover" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickPickImage"
+                    android:src="@mipmap/edit_btn"
+                    android:layout_gravity="right|top" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickCamera"
+                    android:src="@mipmap/add_new_pic"
+                    android:layout_gravity="left|top" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageViewShare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_small_extra"
+                android:src="@mipmap/eng_share"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+                android:padding="0dp"
+            android:background="@android:drawable/picture_frame" />
+    </LinearLayout>
+
+
+</LinearLayout>

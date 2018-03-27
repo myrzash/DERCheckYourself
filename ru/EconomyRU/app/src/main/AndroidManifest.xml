@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.nis.economyru">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="kz.nis.economyru.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kz.nis.economyru.Main">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.play.ActivityDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="kz.nis.economyru.play.ActivityDialogFinish"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.play.ActivityGameOne"
+            android:screenOrientation="landscape">
+
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.play.ActivityGameTwo"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.ActivityIdentif"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.ActivityParts"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economyru.ActivityList"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityListTheme"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Проверь себя</string>
+
+
+    <!-- ACTIVITY LIST-->
+    <string name="title">Название:</string>
+    <string name="author">Автор:</string>
+    <string name="cover">Обложка:</string>
+    <string name="back">Назад</string>
+ <string name="start_game">Начать игру</string>
+    <!-- ACTIVITY CHECK-->
+    <string name="put_thumb_on_the_screen">Пожалуйста, приложите \nбольшай палец правой руки \n к экрану</string>
+    <string name="only_teacher_parents">Доступ открыт только для  \n учителей/родителей</string>
+    <string name="identification_verified">Личность установлена</string>
+    <string name="not_enough">Недостаточно ресурсов</string>
+    <string name="wait">Подождите пожалуйста . . .</string>
+    <string name="toast_exit">Нажмите еще раз чтобы выйти</string>
+
+    <!--<string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string> &lt;!&ndash; "Press once again to exit!" &ndash;&gt;-->
+
+</resources>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    >
+
+    <TextView
+        android:id="@+id/textStartGame"
+        android:padding="@dimen/padding_normal"
+        style="@style/StyleButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textVerification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44FF44"
+            android:gravity="center"
+            android:layout_margin="@dimen/padding_normal"
+            android:textSize="@dimen/text_zise_big"
+            android:text="@string/put_thumb_on_the_screen" />
+
+        <ImageView
+            android:id="@+id/imageFingerDetecor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal"
+            android:src="@mipmap/finger_detector2" />
+
+        <TextView
+            android:id="@+id/textBottomVerification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44FF44"
+            android:gravity="center"
+            android:layout_margin="@dimen/padding_normal"
+            android:textSize="@dimen/text_zise_big"
+            android:text="@string/only_teacher_parents" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageScan"
+        android:src="@mipmap/scanlight"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

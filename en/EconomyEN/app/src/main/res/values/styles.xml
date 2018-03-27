@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/text_zise_normal_big</item>
+    </style>
+
+    <style name="StyleEditTextList">
+        <item name="android:layout_width">@dimen/width_edit_list</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@mipmap/textfield2</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">@dimen/text_zise_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/padding_small</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+    <style name="StyleEditTextTitle">
+        <item name="android:background">@mipmap/textfield1</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/padding_small_extra</item>
+        <item name="android:maxLength">18</item>
+    </style>
+
+
+    <style name="StyleButtonBack">
+        <item name="android:drawableLeft">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StyleButtonCard">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">105dp</item>
+        <item name="android:layout_marginTop">@dimen/padding_small_extra</item>
+        <item name="android:layout_marginLeft">@dimen/padding_small_extra</item>
+        <item name="android:background">@drawable/icon_card</item>
+        <item name="android:padding">@dimen/padding_small_extra</item>
+        <item name="android:textColor">@color/text_cards</item>
+        <item name="android:textSize">@dimen/text_zise_normal</item>
+    </style>
+
+    <style name="StyleButtonCard.small" parent="StyleButtonCard">
+        <item name="android:layout_width">190dp</item>
+        <item name="android:layout_height">140dp</item>
+    </style>
+
+    <style name="StyleButtonCard.small.firstRow" parent="StyleButtonCard.small">
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+    <style name="ActivityListTheme" parent="AppTheme">
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+</resources>

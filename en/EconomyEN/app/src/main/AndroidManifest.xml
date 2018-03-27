@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.nis.economy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="kz.nis.economy.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kz.nis.economy.Main"></activity>
+
+
+        <activity
+            android:name="kz.nis.economy.play.ActivityDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="kz.nis.economy.play.ActivityDialogFinish"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economy.play.ActivityGameOne"
+            android:screenOrientation="landscape">
+
+
+        </activity>
+        <activity
+            android:name="kz.nis.economy.play.ActivityGameTwo"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economy.ActivityIdentif"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economy.ActivityParts"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name="kz.nis.economy.ActivityList"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityListTheme"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+    </application>
+
+</manifest>

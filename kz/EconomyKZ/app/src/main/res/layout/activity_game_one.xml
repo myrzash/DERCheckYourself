@@ -1,0 +1,260 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bkg_play">
+
+
+    <RelativeLayout
+        android:id="@+id/containerLeftBo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="60dp"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageViewBo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animlist_left_bo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerFlame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="230dp"
+        android:paddingBottom="60dp"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageViewFlame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animlist_flame" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imageHero"
+        android:layout_width="@dimen/height_heroes"
+        android:layout_height="@dimen/height_heroes"
+        android:scaleType="fitStart"
+        android:src="@mipmap/hero" />
+
+    <ImageView
+        android:id="@+id/imageDino"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_dino"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitEnd"
+        android:src="@mipmap/dinasour" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:gravity="center_horizontal|bottom">
+
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_1"
+            style="@style/StyleButtonCard"
+            android:layout_alignParentBottom="true" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_2"
+            style="@style/StyleButtonCard"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_1" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_3"
+            style="@style/StyleButtonCard"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_2" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_4"
+            style="@style/StyleButtonCard"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_3" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_5"
+            style="@style/StyleButtonCard"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn1_4" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_6"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_1" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_7"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_6" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_8"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_7" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_9"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_8" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_10"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_1"
+            android:layout_toRightOf="@+id/btn1_9" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_11"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_6" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_12"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_11" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_13"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_12" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_14"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_13" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_15"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_6"
+            android:layout_toRightOf="@+id/btn1_14" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_16"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_11" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_17"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_11"
+            android:layout_toRightOf="@+id/btn1_16" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_18"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_11"
+            android:layout_toRightOf="@+id/btn1_17" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_19"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_11"
+            android:layout_toRightOf="@+id/btn1_18" />
+
+        <kz.nis.economykz.play.Card
+            android:id="@+id/btn1_20"
+            style="@style/StyleButtonCard"
+            android:layout_above="@+id/btn1_11"
+            android:layout_toRightOf="@+id/btn1_19" />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/panel1"
+        android:layout_width="@dimen/width_panel_pause_speak"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_container_pause">
+
+        <ImageView
+            android:id="@+id/buttonPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_pause" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSound"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:button="@drawable/checkbox_sound"
+            android:checked="true" />
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panel1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_high" />
+
+    <TextView
+        android:id="@+id/textViewDialogLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="140dp"
+        android:background="@mipmap/dialog_left"
+        android:gravity="center"
+        android:textColor="@color/text_dialog_heroes"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/textViewDialogRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="126dp"
+        android:layout_marginTop="140dp"
+        android:background="@mipmap/dialog_right"
+        android:gravity="center"
+        android:textColor="@color/text_dialog_heroes"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/buttonCarte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+
+    <ImageView
+        android:id="@+id/buttonCarte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+</RelativeLayout>

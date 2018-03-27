@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bkg_play_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/containerLeftBo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_right_flame_bo_container_2"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageViewBo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_bo_2"
+                android:background="@drawable/animlist_left_bo" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/containerFlame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_left_right_flame_bo_container_2"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageViewFlame"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_flame_2"
+                android:background="@drawable/animlist_flame" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_middle_container"
+        android:layout_centerVertical="true">
+
+
+        <ImageView
+            android:id="@+id/imageDino"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_dino_2"
+            android:layout_gravity="right|top"
+            android:scaleType="fitEnd"
+            android:src="@mipmap/dinasour_flipped" />
+
+        <ImageView
+            android:id="@+id/imageHero"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_heroes_2"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="80dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/hero" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/containerFragmentTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:rotation="180">
+
+            <fragment
+                android:id="@+id/fragmentTop"
+                android:name="kz.nis.economyru.play.FragmentPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:tag="top" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/containerFragmentBottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragmentBottom"
+                android:name="kz.nis.economyru.play.FragmentPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:tag="bottom"
+                tools:layout="@layout/fragment_game_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/width_panel_pause_speak"
+        android:layout_height="@dimen/height_panel_pause_speak"
+        android:layout_centerInParent="true">
+
+        <CheckBox
+            android:id="@+id/checkBoxSound"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:button="@drawable/checkbox_sound"
+            android:checked="true" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSound2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top|left"
+            android:button="@drawable/checkbox_sound"
+            android:checked="true"
+            android:rotation="180" />
+    </FrameLayout>
+
+</RelativeLayout>
